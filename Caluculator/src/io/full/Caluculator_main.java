@@ -6,6 +6,7 @@ public class Caluculator_main {
 		// TODO Auto-generated method stub
 		System.out.println("This from master branch");
 		System.out.println("This from git");
+		System.out.println("This from master branch");
 		
 	}
 
