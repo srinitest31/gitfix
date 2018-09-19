@@ -1,6 +1,7 @@
 package io.full;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,13 +9,14 @@ public class StringcalcTest {
 	
 	@Test
 	public void test2() {
-		
+		System.out.println("werty");
 		StringCalc.add("2,3");
 	}
 	
-	@Test
+	@Before
 	public void test1() {
 		StringCalc.add("2");
+		System.out.println("dfghjk");
 	}
 	
 	@Test
